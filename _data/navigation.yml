@@ -17,11 +17,11 @@
 
 - title: Posts
   url: /posts/
-- title: Categories
-  url: /categories/
-- title: Tags
-  url: /tags/
-- title: Recipes
-  url: /recipes/
-- title: Search
+#- title: Categories
+#  url: /categories/
+#- title: Tags
+#  url: /tags/
+- title: Proyectos
+  url: /proyectos/
+- title: Búsqueda
   url: /search/
