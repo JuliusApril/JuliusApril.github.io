@@ -80,7 +80,7 @@ plugins:
 
 # Collections
 collections:
-  posts:
+  proyectos:
     output: true
     permalink: /:collection/:path/
 
