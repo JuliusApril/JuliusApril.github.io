@@ -1,7 +1,7 @@
 # Sample site navigation bar links
 
-- title: Home
-  url: /landing/
+#- title: Home
+#  url: /landing/
 
 - title: Blog
   url: /posts/
