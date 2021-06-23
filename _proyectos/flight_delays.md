@@ -1,29 +1,33 @@
 ---
 title: "101. Data wrangling (1). Análisis del retraso en los vuelos de EEUU en 2008"
 image: 
-  path: /images/peanut-butter-cookies-lg.jpg
-  thumbnail: /images/peanut-butter-cookies-400x200.jpg
-  caption: "Photo from [Pexels](https://www.pexels.com)"
+  path: /images/gettyImages-96665029_resized_2-1440x680.jpg
+  thumbnail: /images/gettyImages-96665029_resized_2-small.jpg
+  caption: "Photo from [getty images](https://www.gettyimages.es)"
+  
 ---
 
-Este proyecto es un ejercicio de exploración y análisis de datos, donde busco patrones y tendencias en los retrasos de los vuelos en EEUU en el año 2008. 
+Ejercicio de exploración y análisis de datos, donde busco patrones y tendencias en los retrasos de los vuelos en EEUU en el año 2008. 
 
-He utilizado el dataset del repositorio de Kagle que se encuentra [aquí](https://www.kaggle.com/giovamata/airlinedelaycauses) 
+He utilizado el dataset del repositorio de Kagle que se encuentra [aquí](https://www.kaggle.com/giovamata/airlinedelaycauses) que recoge los datos de los vuelos nacionales en EEUU en 2008.
 
-## Ingredients
 
-* 1 cup unsalted butter
-* 1 cup crunchy peanut butter
-* 1 cup white sugar
-* 1 cup packed brown sugar
-* 2 eggs 2 
-* 1/2 cups all-purpose flour 
-* 1 teaspoon baking powder
-* 1/2 teaspoon salt
-* 1 1/2 teaspoons baking soda
 
-## Directions
+## Indice
 
-1. Cream butter, peanut butter, and sugars together in a bowl; beat in eggs.
-2. In a separate bowl, sift flour, baking powder, baking soda, and salt; stir into butter mixture. Put dough in refrigerator for 1 hour.
-3. Roll dough into 1 inch balls and put on baking sheets. Flatten each ball with a fork, making a crisscross pattern. Bake in a preheated 375 degrees F oven for about 10 minutes or until cookies begin to brown.
+* Ingesta de los datos.
+* Limpieza y preprocesado.  
+* Combinación con otros datasets
+* Análisis exploratorio
+* Conclusiones
+
+
+## Hallazgos
+
+1. Existe una relación entre la fecha y el retraso. Días previos a las vacaciones suelen tener mayor número de vuelos y acumulan mayores retrasos.    
+2. Los festivos como 4 de julio o 25 de diciembre son los días que acumularon menos retraso.
+3. Se observa una tendencia a sufrir mayor retraso cuando hay más tráfico aéreo.
+4. El retraso a la llegada muestra una relación lineal conel retraso a la salida.
+5. Aviones más antiguos tienden a tener mayores retrasos.
+
+Podéis acceder al notebook en mi repositorio de [github](https://github.com/JuliusApril/Data_wrangling_Vuelos_EEUU-2008).
